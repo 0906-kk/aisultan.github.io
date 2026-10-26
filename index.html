@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Айсұлтан - ЖИ Тексеруші</title>
+<style>
+body{margin:0;background:#0d1110;color:white;font-family:sans-serif;display:flex;justify-content:center}
+.container{max-width:420px;background:#0d1110;padding:24px 20px;text-align:center}
+.bubble{position:relative;background:#0f1e1c;border:2px solid #3dd6b8;color:#3dd6b8;padding:14px 28px;border-radius:28px;font-size:32px;font-weight:800;display:inline-block;margin-top:10px}
+.bubble:after{content:'';position:absolute;bottom:-12px;left:50%;border-left:10px solid transparent;border-right:10px solid transparent;border-top:12px solid #3dd6b8}
+.desc{font-size:19px;line-height:1.5;margin:25px 0;color:#e0e0e0}
+.btn{width:100%;background:#4ee8c8;color:#00211a;padding:18px;border:none;border-radius:18px;font-size:19px;font-weight:800;cursor:pointer}
+.card{background:#151f1d;border:1px solid #2a3a37;border-radius:18px;padding:18px;margin-top:18px;text-align:left;display:none}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="bubble">Сәлем, Айсұлтан!</div>
+  <div style="margin:30px auto;font-size:180px">🤖</div>
+  <div class="desc">
+    Мен — тақия киген ЖИ Тексеруші роботпын.<br>
+    Айсұлтан, Жасанды интеллект берген жауаптың дұрыс-бұрысын бірге тексерейік!
+  </div>
+  <button class="btn" onclick="document.getElementById('result').style.display='block'">🚀 ЖИ сұрақ-жауабын тексеру</button>
+  <div id="result" class="card">
+    <h3 style="color:#4ee8c8">🔍 Айсұлтанның 3 СҮЗГІСІ:</h3>
+    <div>✅ <b>1. Тексер?</b> - Басқа 2 сайттан қара</div>
+    <div>✅ <b>2. Кім жазды?</b> - Ғалым ба, ЖИ ма?</div>
+    <div>✅ <b>3. Мұғалімнен сұра?</b> - Ұстаз не дейді?</div>
+    <div style="margin-top:12px;padding:10px;background:#0d2b26;border-radius:10px;text-align:center">
+      <b>3 сүзгіден өтсе ғана - ШЫН АҚПАРАТ! 💧</b>
+    </div>
+  </div>
+  <div style="margin-top:30px;font-size:12px;color:#5a6e6b">4-сынып • Айсұлтанның ғылыми жобасы • Зерде 2026</div>
+</div>
+</body>
+</html>
